@@ -1,0 +1,11 @@
+C:\Users\abdaty02\source\repos\SLUTPROJEKT\bin\Debug\SLUTPROJEKT.exe.config
+C:\Users\abdaty02\source\repos\SLUTPROJEKT\bin\Debug\SLUTPROJEKT.exe
+C:\Users\abdaty02\source\repos\SLUTPROJEKT\bin\Debug\SLUTPROJEKT.pdb
+C:\Users\abdaty02\source\repos\SLUTPROJEKT\obj\Debug\SLUTPROJEKT.csprojAssemblyReference.cache
+C:\Users\abdaty02\source\repos\SLUTPROJEKT\obj\Debug\SLUTPROJEKT.Properties.Resources.resources
+C:\Users\abdaty02\source\repos\SLUTPROJEKT\obj\Debug\SLUTPROJEKT.csproj.GenerateResource.cache
+C:\Users\abdaty02\source\repos\SLUTPROJEKT\obj\Debug\SLUTPROJEKT.csproj.CoreCompileInputs.cache
+C:\Users\abdaty02\source\repos\SLUTPROJEKT\obj\Debug\SLUTPROJEKT.exe
+C:\Users\abdaty02\source\repos\SLUTPROJEKT\obj\Debug\SLUTPROJEKT.pdb
+C:\Users\abdaty02\source\repos\SLUTPROJEKT\obj\Debug\SLUTPROJEKT.PLAY.resources
+C:\Users\abdaty02\source\repos\SLUTPROJEKT\obj\Debug\SLUTPROJEKT.StartPage.resources
