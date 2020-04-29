@@ -49,15 +49,20 @@ namespace SLUTPROJEKT
         private void P2_Click(object sender, EventArgs e)
         {
             P2.Enabled = false;
+            P2.FlatAppearance.BorderSize = 1;
             AI.Enabled = true;
+            AI.FlatAppearance.BorderSize = 0;
+          
 
         }
 
         private void AI_Click(object sender, EventArgs e)
         {
             AI.Enabled = false;
+            AI.FlatAppearance.BorderSize = 1;
             P2.Enabled = true;
-        
+            P2.FlatAppearance.BorderSize = 0;
+           
         }
         
         private void start_clicked(object sender, EventArgs e)

@@ -37,9 +37,9 @@
             this.streaklbl = new System.Windows.Forms.Label();
             this.streakn = new System.Windows.Forms.Label();
             this.settings = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.trackbarValue = new System.Windows.Forms.Label();
             this.start = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.settings.SuspendLayout();
             this.SuspendLayout();
@@ -50,7 +50,7 @@
             this.P2.FlatAppearance.BorderSize = 0;
             this.P2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.P2.Font = new System.Drawing.Font("Kristen ITC", 25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.P2.Location = new System.Drawing.Point(140, 62);
+            this.P2.Location = new System.Drawing.Point(153, 62);
             this.P2.Name = "P2";
             this.P2.Size = new System.Drawing.Size(147, 98);
             this.P2.TabIndex = 0;
@@ -65,7 +65,7 @@
             this.AI.FlatAppearance.BorderSize = 0;
             this.AI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AI.Font = new System.Drawing.Font("Kristen ITC", 25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AI.Location = new System.Drawing.Point(315, 62);
+            this.AI.Location = new System.Drawing.Point(328, 62);
             this.AI.Name = "AI";
             this.AI.Size = new System.Drawing.Size(147, 98);
             this.AI.TabIndex = 1;
@@ -78,7 +78,7 @@
             // trackBar1
             // 
             this.trackBar1.LargeChange = 1;
-            this.trackBar1.Location = new System.Drawing.Point(167, 202);
+            this.trackBar1.Location = new System.Drawing.Point(180, 202);
             this.trackBar1.Minimum = 3;
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(221, 69);
@@ -90,7 +90,7 @@
             // 
             this.minTB.AutoSize = true;
             this.minTB.Font = new System.Drawing.Font("Monotype Corsiva", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minTB.Location = new System.Drawing.Point(134, 202);
+            this.minTB.Location = new System.Drawing.Point(147, 202);
             this.minTB.Name = "minTB";
             this.minTB.Size = new System.Drawing.Size(32, 39);
             this.minTB.TabIndex = 4;
@@ -100,7 +100,7 @@
             // 
             this.maxTB.AutoSize = true;
             this.maxTB.Font = new System.Drawing.Font("Monotype Corsiva", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxTB.Location = new System.Drawing.Point(394, 202);
+            this.maxTB.Location = new System.Drawing.Point(407, 202);
             this.maxTB.Name = "maxTB";
             this.maxTB.Size = new System.Drawing.Size(47, 39);
             this.maxTB.TabIndex = 5;
@@ -109,7 +109,7 @@
             // streaklbl
             // 
             this.streaklbl.Font = new System.Drawing.Font("MV Boli", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.streaklbl.Location = new System.Drawing.Point(221, 325);
+            this.streaklbl.Location = new System.Drawing.Point(234, 325);
             this.streaklbl.Name = "streaklbl";
             this.streaklbl.Size = new System.Drawing.Size(185, 51);
             this.streaklbl.TabIndex = 6;
@@ -118,7 +118,7 @@
             // streakn
             // 
             this.streakn.Font = new System.Drawing.Font("MV Boli", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.streakn.Location = new System.Drawing.Point(162, 325);
+            this.streakn.Location = new System.Drawing.Point(175, 325);
             this.streakn.Name = "streakn";
             this.streakn.Size = new System.Drawing.Size(53, 51);
             this.streakn.TabIndex = 7;
@@ -143,10 +143,19 @@
             this.settings.TabIndex = 8;
             this.settings.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("MV Boli", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(10, 185);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(131, 51);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "SIZE";
+            // 
             // trackbarValue
             // 
             this.trackbarValue.Font = new System.Drawing.Font("MV Boli", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.trackbarValue.Location = new System.Drawing.Point(250, 239);
+            this.trackbarValue.Location = new System.Drawing.Point(263, 239);
             this.trackbarValue.Name = "trackbarValue";
             this.trackbarValue.Size = new System.Drawing.Size(83, 51);
             this.trackbarValue.TabIndex = 9;
@@ -157,7 +166,7 @@
             this.start.FlatAppearance.BorderSize = 0;
             this.start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.start.Font = new System.Drawing.Font("Kristen ITC", 25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.start.Location = new System.Drawing.Point(140, 390);
+            this.start.Location = new System.Drawing.Point(154, 391);
             this.start.Name = "start";
             this.start.Size = new System.Drawing.Size(288, 88);
             this.start.TabIndex = 2;
@@ -166,15 +175,6 @@
             this.start.Click += new System.EventHandler(this.start_clicked);
             this.start.MouseEnter += new System.EventHandler(this.buttonsMouseEnter);
             this.start.MouseLeave += new System.EventHandler(this.buttonsMouseLeave);
-            // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("MV Boli", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(-3, 185);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 51);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "SIZE";
             // 
             // StartPage
             // 
