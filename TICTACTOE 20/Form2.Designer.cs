@@ -42,6 +42,7 @@
             this.result.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.result.Size = new System.Drawing.Size(268, 512);
             this.result.TabIndex = 0;
+            
             // 
             // PLAY
             // 
