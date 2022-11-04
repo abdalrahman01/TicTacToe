@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SLUTPROJEKT
@@ -22,8 +17,8 @@ namespace SLUTPROJEKT
         
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
-            //track bar är för att bestämma storleken av spelet
-            // ex om det är 3 >> 3x3 plan
+            //trackbar är för att bestämma storleken rutnät.
+            // ex om det är 3 -> 3x3 plan
             minTB.Text = trackBar1.Minimum.ToString();
             maxTB.Text = trackBar1.Maximum.ToString();
             trackbarValue.Text = trackBar1.Value.ToString();

@@ -39,19 +39,22 @@ namespace SLUTPROJEKT
                 List<Button> row = new List<Button>();
                 for (int l = 0; l < storlek; l++)
                 {
-                    // addera buttons till rad 
+                    // lägg till knappar till raden 
                     row.Add(new Button());
                 }
-                // addera raden till stora listan
+                // lägg raden till stora listan
                 buttons.Add(row);
             }
             // lite design
             // pos är location on screen
             Ground.Location = pos;
+
             // Size. den tar hur många buttons vi har och multiplicera de med buttonSize
             Ground.Size = new Size(storlek * buttonSize, storlek * buttonSize);
-            // tillägga panel till fönstret
+            
+            // lägg till Ground som en komponent i kontroller. 
             form.Controls.Add(Ground);
+
             foreach (var row in buttons)
             {
                 foreach (var button in row)
@@ -115,6 +118,7 @@ namespace SLUTPROJEKT
 
         private void MouserHoverEnter(object sender, EventArgs e)
         {
+            // när man hovrar över knappen visas vad kommer nästa (x eller o) 
             Button button = (Button)sender;
             if (button.Enabled)
             {
@@ -210,7 +214,7 @@ namespace SLUTPROJEKT
                         {
                             result.AppendText(point.ToString() + " O");
                         }
-                        // sedan kollar om nåån vinner
+                        // sedan kollar om nån vinner
                         checkWin(button);
 
                         break;

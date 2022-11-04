@@ -31,3 +31,15 @@ C:\Users\abdaty02\source\repos\SLUTPROJEKT\TICTACTOE 20\obj\Debug\SLUTPROJEKT.pd
 C:\Users\abdaty02\source\repos\SLUTPROJEKT\TICTACTOE 20\bin\Debug\SLUTPROJEKT.exe.config
 C:\Users\abdaty02\source\repos\SLUTPROJEKT\TICTACTOE 20\bin\Debug\SLUTPROJEKT.exe
 C:\Users\abdaty02\source\repos\SLUTPROJEKT\TICTACTOE 20\bin\Debug\SLUTPROJEKT.pdb
+C:\Users\abdal\programmering\tictactoe\TicTacToe\TICTACTOE 20\bin\Debug\SLUTPROJEKT.exe.config
+C:\Users\abdal\programmering\tictactoe\TicTacToe\TICTACTOE 20\bin\Debug\SLUTPROJEKT.exe
+C:\Users\abdal\programmering\tictactoe\TicTacToe\TICTACTOE 20\bin\Debug\SLUTPROJEKT.pdb
+C:\Users\abdal\programmering\tictactoe\TicTacToe\TICTACTOE 20\obj\Debug\SLUTPROJEKT.csproj.AssemblyReference.cache
+C:\Users\abdal\programmering\tictactoe\TicTacToe\TICTACTOE 20\obj\Debug\SLUTPROJEKT.csproj.SuggestedBindingRedirects.cache
+C:\Users\abdal\programmering\tictactoe\TicTacToe\TICTACTOE 20\obj\Debug\SLUTPROJEKT.StartPage.resources
+C:\Users\abdal\programmering\tictactoe\TicTacToe\TICTACTOE 20\obj\Debug\SLUTPROJEKT.PLAY.resources
+C:\Users\abdal\programmering\tictactoe\TicTacToe\TICTACTOE 20\obj\Debug\SLUTPROJEKT.Properties.Resources.resources
+C:\Users\abdal\programmering\tictactoe\TicTacToe\TICTACTOE 20\obj\Debug\SLUTPROJEKT.csproj.GenerateResource.cache
+C:\Users\abdal\programmering\tictactoe\TicTacToe\TICTACTOE 20\obj\Debug\SLUTPROJEKT.csproj.CoreCompileInputs.cache
+C:\Users\abdal\programmering\tictactoe\TicTacToe\TICTACTOE 20\obj\Debug\SLUTPROJEKT.exe
+C:\Users\abdal\programmering\tictactoe\TicTacToe\TICTACTOE 20\obj\Debug\SLUTPROJEKT.pdb
